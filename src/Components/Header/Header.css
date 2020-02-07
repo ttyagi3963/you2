@@ -1,0 +1,33 @@
+.Header{
+    border:1px solid red;
+    overflow: hidden;
+}
+.Logo{
+    float:left
+}
+.TopNavigation{
+    float:right
+}
+.TopNavigation ul {}
+
+.TopNavigation ul li{
+    list-style-type: none;
+    padding:10px;
+    display: inline-block
+}
+
+.navbar-nav{
+    color:#333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.TopNavigation ul li a:hover{
+    text-decoration: underline;
+    color:#666
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#333  !important;
+}
+

@@ -1,0 +1,44 @@
+.red{
+    color: #f4543d !important;
+}
+.Customize  h3 {
+    text-align: center;
+}
+.Customize  h4{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+.Customize  .col-sm-6{
+    padding:15px;
+    padding-bottom: 0px;
+}
+
+.Customize {
+    text-align: justify;
+}
+.Customize  .leftSection{
+    border: 1px solid #dedede;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: #333;
+}
+
+
+
+.Customize  img{
+    float: left;
+    width: 162px;
+    padding: 15px;
+}
+
+.Customize  h2{
+    color: #3a99df;
+    font-size: 24px;
+    padding:0 15px
+}
+.Customize h1{
+    font-size: 30px;
+    padding:0 15px
+}

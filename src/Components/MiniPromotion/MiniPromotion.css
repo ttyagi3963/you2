@@ -1,0 +1,62 @@
+.MiniPromotionText{
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .MiniPromotionText h1{
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  
+  .MiniPromotionText h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  
+  .MiniPromotionText button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 28px;
+  
+  }
+
+  @media only screen and (max-width: 767px){ 
+    .MiniPromotionText h1 {
+        font-size: 18px;
+        margin-top: 0px;
+        padding: 0px 15px;
+    }
+    .MiniPromotionText h3 {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 0px;
+        /* text-align: justify; */
+        padding: 0 15px;
+    }
+
+    .MiniPromotionText button {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 17px;
+        box-shadow: 2px 2px 3px #dedede;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    .MiniPromotionText h1 {
+        font-size: 23px;
+        margin-top: 0px;
+    }
+
+    .MiniPromotionText h3 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    .MiniPromotionText button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 23px;
+    }
+  }

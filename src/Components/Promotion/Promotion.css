@@ -1,0 +1,119 @@
+.Promotion {
+    background: url('../../assets/images/woman-small-3.jpg') no-repeat;
+    height: 600px;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+.Promotion h1{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.Promotion h2{
+    
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.Promotion a{
+    padding: 10px 40px;
+    background-color: rgb(244, 83, 77);
+    color: #fff !important;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 15px 0;
+    border-radius: 34px;
+    width: 371px;
+    box-shadow: 1px 1px 17px #999;
+}
+.PromotionText{
+    FONT-WEIGHT: 700;
+    width: 450px;
+    display: inline-block;
+    margin-left: 230px;
+    padding: 15px;
+    background: #fff;
+    opacity: 0.8;
+    border-radius: 15px;
+    /* margin: auto; */
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 767px){
+
+    .Promotion{
+        background-size: 727px;
+        height: 257px;
+    }
+    .PromotionText {
+        
+        width: 79%;
+    display: block;
+    margin-left: 0px;
+    padding: 15px;
+    background: #ffff;
+    opacity: 0.8;
+    border-radius: 15px;
+    /* margin: auto; */
+    margin-top: 35px;
+    color: #000;
+    margin-left: 10px;
+    
+    }
+    .Promotion h1 {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .Promotion h2 {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+
+    .Promotion a {
+        padding: 10px 20px;
+        background-color: rgb(244, 83, 77);
+        color: #fff !important;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 15px 0;
+        border-radius: 34px;
+        width: 371px;
+        box-shadow: 1px 1px 17px #999;
+    }
+    .MiniPromotionText h1 {
+        font-size: 18px;
+        margin-top: 0px;
+        padding: 0px 15px;
+    }
+    .MiniPromotionText h3 {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 0px;
+        /* text-align: justify; */
+        padding: 0 15px;
+    }
+    .MiniPromotionText button {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 17px;
+        box-shadow: 2px 2px 3px #dedede;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .PromotionText {
+        FONT-WEIGHT: 700;
+        width: 450px;
+        display: block;
+        margin-left: 50px;
+        padding: 15px;
+        background: #fff;
+        opacity: 0.8;
+        border-radius: 15px;
+        /* margin: auto; */
+        margin-top: 150px;
+    }
+}

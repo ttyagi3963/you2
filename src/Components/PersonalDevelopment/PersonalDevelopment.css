@@ -1,0 +1,93 @@
+.Heading{
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: underline;
+    color:#fff;
+    line-height:1em
+}
+
+.PersonalContent,.CorporateContent,.OneContent{
+    background: url('../../assets/images/personal2.png') no-repeat;
+    height: 329px;
+    color:#fff;
+}
+.CorporateContent{
+    background: url('../../assets/images/corp.png') no-repeat;
+    background-position-y: -1px;
+}
+
+.OneContent{
+    background: url('../../assets/images/one.png') no-repeat;
+}
+
+
+.PersonalDevelopment ul li,.CorporateContent,.OneContent{
+    padding: 5px;
+    padding-left: 0px;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.OneContent a{
+    padding: 10px 20px;
+    background-color: rgb(244, 83, 77);
+    color: #fff !important;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 15px 0;
+    border-radius: 34px;
+    /* width: 371px; */
+    box-shadow: 1px 1px 17px #999;
+    margin-top: 50px;
+    position: relative;
+    /* top: 72px; */
+    /* right: -16px; */
+    display: inline-block;
+}
+
+.PersonalBody{
+    text-align: center;
+}
+.PersonalBody a{
+    border: 2px solid #fff;
+    padding: 7px;
+    display: inline-block;
+}
+.PersonalDevelopment ul{
+    text-align: left;
+    padding-left:30px
+}
+
+@media only screen and (max-width: 767px){
+    .PersonalContent{
+        width:272px
+    }
+    .CorporateContent{
+        height: 329px;  
+    }
+
+    .OneContent{
+        height: 228px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .Heading {
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+        text-decoration: underline;
+        color: #fff;
+        line-height: 1em;
+    }
+    .PersonalDevelopment ul li, .CorporateContent, .OneContent {
+        padding: 5px;
+        padding-left: 0px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .OneContent a{
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,65 @@
+.Benefits{
+    margin-top:30px;
+    border-top: 1px solid #dedede;
+    padding-top: 30px;
+}
+
+.Benefits ul{
+    list-style-type: none;
+}
+.Benefits ul li{
+    padding: 5px 0px;
+}
+.Benefits .heading{
+    font-size:30px;
+    margin-bottom:30px
+}
+.Benefits .bold{
+    font-weight: 700;
+}
+
+.Benefits .body{
+    margin-top:15px;
+}
+.LeadTheField img,.Thinking img{
+    height: 100px;
+    display:inline-block
+}
+.image{
+    text-align:center
+}
+.Thinking{
+border-right:1px solid #dedede
+}
+
+.LeadTheField button, .Thinking button{
+    display:inline-block
+}
+.LeadTheField{
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 767px){
+    .Benefits .heading {
+        font-size: 17px;
+        margin-bottom: 30px;
+        padding: 0 15px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .Thinking p, .LeadTheField p {
+        padding: 0 15px;
+        /* text-align: justify; */
+        font-size: 15px;
+    }
+    .LeadTheField p {
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .Thinking .ContactButton {
+        display: inline-block !important;
+        margin-top: 00px;
+        margin-bottom: 30px;
+    }
+}
+

@@ -1,0 +1,44 @@
+.red{
+    color: #f4543d !important;
+}
+.Lead h3 {
+    text-align: center;
+}
+.Lead h4{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+.Lead .col-sm-6{
+    padding:15px;
+    padding-bottom: 0px;
+}
+
+.Lead{
+    text-align: justify;
+}
+.Lead .leftSection{
+    border: 1px solid #dedede;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: #333;
+}
+
+
+
+.Lead img{
+    float: left;
+    width: 162px;
+    padding: 15px;
+}
+
+.Lead h2{
+    color: #3a99df;
+    font-size: 24px;
+    padding:0 15px
+}
+.Lead h1{
+    font-size: 30px;
+    padding:0 15px
+}

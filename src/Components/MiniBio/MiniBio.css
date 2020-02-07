@@ -1,0 +1,78 @@
+.MiniBio h1{
+    font-size:25px;
+    text-align:center;
+    
+}
+.MiniBio{
+    margin-top:30px
+}
+.MiniBio h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.ContactButton{
+    display:inline-block !important;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 413px){
+  .MiniBio img{
+    width: 319px;
+    display:inline-block
+  }  
+  .MiniBio h1{
+    margin-top: 10px !important;
+    padding: 0 15px;
+    font-size: 18px;
+  }
+  .MiniBio h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding: 0 15px;
+}
+.ContactButton {
+    display: inline-block !important;
+    margin-top: 00px;
+}
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px){
+    .MiniBio img{
+        width: 374px;
+        display:inline-block
+    }  
+    .MiniBio h1{
+      margin-top: 10px !important;
+      padding: 0 15px;
+      font-size: 18px;
+    }
+    .MiniBio h3 {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.6em;
+      padding: 0 15px;
+  }
+  .ContactButton {
+      display: inline-block !important;
+      margin-top: 00px;
+  }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1199px){
+    .MiniBio img{
+        width: 358px;
+        display:inline-block
+    }  
+    .MiniBio h1 {
+        font-size: 23px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .MiniBio h3 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.6em;
+    }
+  }

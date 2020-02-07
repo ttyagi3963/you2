@@ -1,0 +1,87 @@
+.bold{
+    font-weight:700
+}
+
+.About{
+    text-align: justify;
+    line-height: 1.7em;
+    
+}
+
+.About h2{
+    color: #3a99df
+}
+.Azita{
+    width: 351px;
+    margin-top: 10px;
+}
+
+.About h4{
+    padding-top:30px
+}
+.About .book{
+    padding: 10px 40px;
+    background-color: rgb(244, 83, 77);
+    color: #fff !important;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 15px 0;
+    border-radius: 34px;
+    width: 371px;
+    box-shadow: 1px 1px 17px #999;
+    display:inline-block
+    
+}
+.About .button{
+    margin-top:40px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+    .About h1{
+        font-size: 31px;
+    padding: 0 15px;
+    }
+    .About img{
+        display:inline-block
+    }
+
+    .About h2 {
+        color: #3a99df;
+        font-size: 19px;
+        padding: 0 15px;
+    }
+    .Azita {
+        width: 313px;
+        margin-top: 10px;
+        padding: 0 15px 15px 15px;
+    }
+    .About p {
+       
+        padding: 0 15px;
+    }
+    .About .book {
+        padding: 10px 10px;
+        background-color: rgb(244, 83, 77);
+        color: #fff !important;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0px 0 15px 0px;
+        border-radius: 34px;
+        width: 293px;
+        box-shadow: 1px 1px 17px #999;
+        display: inline-block;
+    }
+    .About h4 {
+        padding-top: 12px;
+        padding: 15px 15px 0 15px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1199px){
+    .Azita {
+        width: 227px;
+        margin-top: 5px;
+    }
+}
