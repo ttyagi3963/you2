@@ -6,12 +6,15 @@
   .MiniPromotionText h1{
     font-size: 28px;
     margin-top: 30px;
+    margin-bottom:30px
   }
+  
   
   .MiniPromotionText h3{
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
+    margin-bottom:30px
   }
   
   .MiniPromotionText button{
@@ -19,6 +22,9 @@
     margin-bottom: 30px;
     font-size: 28px;
   
+  }
+  .MiniPromotionText{
+    margin-bottom: 50px;
   }
 
   @media only screen and (max-width: 767px){ 

@@ -13,9 +13,11 @@ import About from './Components/about/about'
 import Work from './Components/Work/Work'
 import ThinkingIntoAction from './Components/Programs/Thinking/thinking';
 import Customize from './Components/Customize/Customize'
+
 import Leading from './Components/Programs/Lead/lead';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 class App extends Component {
   render() {
@@ -36,6 +38,8 @@ class App extends Component {
               <Route path ="/lead-the-field" exact render ={(props)=> <Leading /> }></Route>
 
               <Route path ="/complimentary-session" exact render ={(props)=> <Customize /> }></Route>
+
+              <Route path ="/contact-azita" exact render ={(props)=> <ContactUs /> }></Route>
 
 
               <Route path ="/" exact render ={(props)=><MiniPromotion />}></Route>

@@ -1,5 +1,6 @@
 import React  from 'react'
 import Azita from '../../assets/images/azita.JPG'
+import {Link} from 'react-router-dom' 
 import { Col, Container, Row, Button } from 'react-bootstrap'
 
 import './MiniBio.css'
@@ -16,10 +17,10 @@ const MiniBio = (props) =>{
                 <h1>When you develop the leader within, it affects every aspect of your life!</h1>
                     <h3>Working in partnership with Bob Proctor, 
                         the legendary human performance expert and star 
-                        of “The Secret,” Azita Beheshti serves as a leadership 
+                        of "The Secret," Azita Beheshti serves as a leadership 
                         and management consultant to individuals and business teams 
                         everywhere.</h3>
-                        <button type="button" className="btn btn-primary ContactButton"> Contact Azita Now</button>
+                        <Link type="button" className="blue-button ContactButton" to="/contact-azita"> Contact Azita Now</Link>
                 </Col>
                 </Row>
                 

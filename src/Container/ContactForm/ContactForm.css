@@ -1,0 +1,52 @@
+.textarea{
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    position: absolute;
+    right: 15px;
+    width: 352px;
+    height: 100px;
+    padding: 15px;
+}
+
+.ContactForm{
+    border:1px solid #dedede;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.ContactForm .heading{
+    font-size:24px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline;
+
+}
+
+.ContactForm button{
+    padding: 10px 40px;
+    background-color: rgb(244, 83, 77);
+    color: #fff !important;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 15px 0;
+    border-radius: 14px;
+    height: auto !important;
+    
+}
+.ant-form label {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 767px){
+    .ContactForm button {
+        padding: 6px 26px;
+        background-color: rgb(244, 83, 77);
+        color: #fff !important;
+        font-size: 28px;
+        font-weight: 500;
+        margin: 15px 0;
+        border-radius: 14px;
+        height: auto !important;
+        /* width: 99%; */
+    }
+}

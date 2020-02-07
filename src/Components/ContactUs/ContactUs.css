@@ -1,0 +1,45 @@
+.red{
+    color: #f4543d !important;
+}
+.ContactUs h3 {
+    text-align: center;
+}
+.ContactUs h4{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+.ContactUs .col-sm-6{
+    padding:15px;
+    padding-bottom: 0px;
+}
+
+.ContactUs{
+    text-align: justify;
+    margin-top: 60px;
+}
+.ContactUs .leftSection{
+    border: 1px solid #dedede;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: #333;
+}
+
+
+
+.ContactUs img{
+    float: left;
+    width: 162px;
+    padding: 15px;
+}
+
+.ContactUs h2{
+    color: #3a99df;
+    font-size: 24px;
+    padding:0 15px
+}
+.ContactUs h1{
+    font-size: 30px;
+    
+}

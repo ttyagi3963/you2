@@ -28,7 +28,7 @@ const Benefits = (props) =>{
                             profound, permanent changes in any area of your life.
                             </p>
                             <div style={{textAlign:'center'}}>
-                            <Link to="/thinking-into-results" className="btn btn-primary ContactButton"> Learn More</Link>       
+                            <Link to="/thinking-into-results" className="blue-button ContactButton"> Learn More</Link>       
                              </div>    
                     
                                 {/* <ul className="BenefitsList">
@@ -59,7 +59,7 @@ const Benefits = (props) =>{
                              is about winning in EVERY aspect of your life, whether you’re leading a business team of thousands or initially trying to get clear on your priority goals and actions steps.
                              </p>
                              <div style={{textAlign:'center'}}>
-                                <Link to="/lead-the-field" className="btn btn-primary ContactButton"> Learn More</Link>       
+                                <Link to="/lead-the-field" className="blue-button ContactButton"> Learn More</Link>       
                              </div>
                                     
                         </div>

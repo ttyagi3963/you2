@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Row, Container } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 import './PersonalDevelopment.css'
 
@@ -43,7 +44,7 @@ const PersonalDevelopment = (props) =>{
                  One - on - One!
                  </div>
                  <div className="PersonalBody" style={{textAlign:'center'}}>
-                <a className="button">Lets Get Started Today</a>
+                <Link className="button" to="/work-with-azita">Lets Get Started Today</Link>
                 </div>
               </Col> 
               </Row>  

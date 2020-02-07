@@ -31,5 +31,31 @@ div *{
 }
 
 
+.red-button{
+  padding: 10px 40px;
+  background-color: rgb(244, 83, 77);
+  color: #fff !important;
+  font-size: 24px;
+  font-weight: 400;
+ 
+  border-radius: 34px;
+
+  box-shadow: 1px 1px 17px #999;
+}
+.blue-button{
+  padding: 10px 20px;
+  
+  background-color: #00b4d4;
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 400;
+ 
+  border-radius: 34px;
+
+  box-shadow: 1px 1px 17px #999;
+}
+
+
+
 
 
