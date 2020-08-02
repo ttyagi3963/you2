@@ -1,5 +1,5 @@
 .Promotion {
-    background: url('../../assets/images/woman-small-3.jpg') no-repeat;
+    background: url('../../assets/images/woman-small-3.jpg') repeat-x;
     height: 600px;
     text-align: center;
     border-top: 1px solid #333;
