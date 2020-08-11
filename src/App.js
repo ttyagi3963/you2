@@ -56,7 +56,7 @@ class App extends Component {
     //   debug: false,
     // })
 
-    
+    console.log("-------"+process.env.PUBLIC_URL)
 
     return (
       <BrowserRouter>

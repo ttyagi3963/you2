@@ -20,9 +20,9 @@ const Footer =(props)=>{
                         <img src={Follow} style={{display:'inline-block'}} className="Follow"/> 
                         </Col>
                         <Col xs={12} style={{textAlign:'center'}} className="social">
-                            <img src={Facebook} />
-                            <img src={Instagram} />
-                            <img src={Twitter} />  
+                            <a href="https://www.facebook.com/you2academy/" target="_blank"><img src={Facebook} /></a>
+                            <a href="https://www.instagram.com/you2academy/" target="_blank"><img src={Instagram} /></a>
+                            <a href="https://twitter.com/you2academy/" target="_blank"><img src={Twitter} />  </a>
                         </Col>
                     </Row>
                 </Container>

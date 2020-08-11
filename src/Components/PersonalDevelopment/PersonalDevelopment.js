@@ -19,7 +19,7 @@ const PersonalDevelopment = (props) =>{
                         <li> Do you have a specific goal but dont know how to achieve it?</li>
                        
                     </ul>
-                    <a className="button">Read More</a>
+                    
                     
                 </div>
              </Col> 
@@ -34,7 +34,7 @@ const PersonalDevelopment = (props) =>{
                         <li>Is your Income not where you'll like it to be?</li>
                         <li>Are you ready for a quantum leap?</li>
                  </ul>
-                 <a className="button">Read More</a>       
+                 
                     
                 </div>
              </Col> 

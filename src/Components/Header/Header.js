@@ -17,7 +17,7 @@ const Header = (props) =>{
     <Row>
       <Col xs={12}>
             <div className="AboveTop">
-                    Contact Azita | <FontAwesomeIcon icon={faPhone} /> 2321408178 
+                    Contact Azita | <FontAwesomeIcon icon={faPhone} /> 310-702-4929
             </div>
               <Container>
                   <Row>
